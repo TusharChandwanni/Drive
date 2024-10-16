@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import File from './File.js'
-
 const PersonSchema=new mongoose.Schema({
     firstName: {
         type: String,
@@ -39,6 +38,5 @@ const PersonSchema=new mongoose.Schema({
     }],
 
 });
-
 const Person=mongoose.model('Person',PersonSchema);
 export default Person;
