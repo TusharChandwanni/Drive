@@ -78,8 +78,7 @@ export default function SignUpForm() {
 
         const newFormData={...formData,picturePath:picturePath?picturePath:null,picture:pictureFile?pictureFile[0]:null}
 
-        const formValues = new FormData(); //FormData is used because multer doesn't work with json type form data, it needs multipart form data which FormData provides
-
+        const formValues = new FormData(); 
         Object.keys(newFormData).map((item)=>{
             formValues.append(item,newFormData[item]);
         })
