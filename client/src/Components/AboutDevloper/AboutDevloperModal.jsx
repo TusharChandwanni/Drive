@@ -44,7 +44,7 @@ export default function AboutDeveloperModal({ open, handleClose })
           </Link>
         </Typography>
         <Button onClick={handleClose} variant="contained">
-          Close
+          Close Button
         </Button>
       </Box>
     </Modal>
