@@ -27,7 +27,7 @@ export default function AboutDeveloperModal({ open, handleClose })
           to creating efficient and robust web applications.
         </Typography>
         <Typography variant="body1" paragraph>
-          For more details and to explore Ayush Anand's work, you can visit his personal website:
+          For more details and to explore Tushar Chandwanni's work, you can visit his personal website:
           <br />
           <Link href="https://d2wexx3khzrajd.cloudfront.net/" target="_blank" rel="noopener noreferrer">
             
