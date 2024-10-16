@@ -12,10 +12,9 @@
 
 
 ## Description
-
 My app, built with AWS S3, React, and Node.js, is a user-friendly online drive. It enables seamless signup, easy file uploads, and efficient file sharing among users.
 
-The React frontend and Node.js backend ensure a responsive and reliable experience, making it a solution for secure and collaborative file management and JSON Web Token for secure user authentication and authorization. 
+The React frontend and Node.js backend ensure a responsive and reliable experience, making it a solution for secure and collaborative file management and JSON Web Token for secure user authentication and authorization using JWT Tokens.
 Experience seamless functionality, beautiful UI, and robust security in our comprehensive web solution.
 
 ## Features
