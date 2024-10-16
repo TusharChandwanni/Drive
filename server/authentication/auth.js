@@ -23,9 +23,6 @@ export const verifytoken=(req,res,next)=>{
             next();
         });
     }
-    catch(err)
-    {
-        console.log({message:err.message});
-    }
+   
 
 }
