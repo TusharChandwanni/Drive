@@ -40,7 +40,9 @@ import AboutDeveloperModal from '../AboutDevloper/AboutDevloperModal.jsx'
 const drawerWidth = 240;
 
 function ResponsiveDrawer(props) {
-  
+  const { window } = props;
+  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [isClosing, setIsClosing] = React.useState(false);
   const [openModal, setOpenModal] = React.useState(false);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const dispatch = useDispatch();
