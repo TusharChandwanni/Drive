@@ -70,7 +70,11 @@ export default function SignUpForm() {
 
     const handleSubmit = async(event) => {
         event.preventDefault();
-        
+        if(!isValidEmail(formData.email))
+        {
+            return window.alert('Invalid email entered');
+        }
+
         
         const newFormData={...formData,picturePath:picturePath?picturePath:null,picture:pictureFile?pictureFile[0]:null}
 
