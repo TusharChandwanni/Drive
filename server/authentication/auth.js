@@ -8,7 +8,7 @@ export const verifytoken=(req,res,next)=>{
     
         if(!authHeader)
         {
-           return res.status(500).json({message:"NOT AUTHORIZED"});
+           return res.status(500).json({message:"Not Authorized for access"});
         }
     
         const token=authHeader.split(" ")[1]; /* authHeader starts with Bearer word and then a space so we are splitting the word in 2 part and getting the second part*/
