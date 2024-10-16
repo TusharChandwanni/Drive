@@ -118,11 +118,3 @@ app.post("/api/posts", upload.array('images', 20), verifytoken, async (req, res)
 
 
 
-const PORT = process.env.PORT || 6001;
-mongoose
-  .connect(process.env.MONGO_URL)
-  .then(() => {
-    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
-
-  })
-  .catch((error) => console.log(`${error} did not connect`));
