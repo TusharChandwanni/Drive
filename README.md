@@ -34,8 +34,7 @@ Share Files
 Video Preview
 ![Video Preview](https://github.com/ayushanandmishra/Drive/blob/881abb4416e329936a456b9915079537e3fbd301/server/public/assets/video%20preview.png)
 
-## Website IP
-http://107.21.177.75/
+
 
 
 
